@@ -6,7 +6,7 @@ if (ENVIRONMENT == 'development') {
     $config['dbname'] = 'loja_virtual';
     $config['dbhost'] = 'localhost';
     $config['dbuser'] = 'root';
-    $config['dbpass'] = '1234';
+    $config['dbpass'] = '';
 } else {
     define("BASE_URL", "http://www.site.com/");
     $config['dbname'] = 'dbname';
